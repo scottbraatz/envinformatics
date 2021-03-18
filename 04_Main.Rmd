@@ -1,13 +1,10 @@
 ---
-<<<<<<< HEAD
+title: "04_Main.Rmd"
 output:
   pdf_document: default
   html_document: default
 ---
-=======
-title: "04_Main.Rmd"
-output: pdf_document
----
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
