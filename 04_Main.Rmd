@@ -1,8 +1,23 @@
 ---
+<<<<<<< HEAD
 output:
   pdf_document: default
   html_document: default
 ---
+=======
+title: "04_Main.Rmd"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown Part 4
+
+
+```{r}
+
 library(tidyverse)
 library(lubridate)
 ## Main script for phenology analysis
@@ -37,4 +52,8 @@ pred <- tibble(date = dat$date,
                pred = pred_logistic(fit_pars, dat$doy))
 
 ## Visualize model and data
+
 plot_phenocam(dat, pred = pred)
+```
+
+
